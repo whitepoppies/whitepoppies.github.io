@@ -1,0 +1,109 @@
+/* GLOBAL */
+@media screen and (min-width: 1200px){
+*{ 
+    box-sizing: border-box;
+    font-family: "Shrikhand","微軟正黑體";
+}
+:root {
+    --primaryColor: #ffd000;
+    --dark: #000;
+    --light: rgb(112, 108, 108);
+}
+/* .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ol,ul,li,a {
+    list-style: none;
+}
+p {
+    color: var(--light);
+    line-height: 1.7em;
+    padding-top: 20px;
+}
+img {
+    width: 100%;
+}
+.full-width {
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+.box {
+    background-color: #fff;
+    text-align: center;
+    height: 600px;
+    
+}
+.media-body {
+    margin-top: 100px;
+}
+.box a {
+    font-size: 4em;
+    color: var(--light);
+}
+.box i {
+    color: rgba(255, 0, 0, .6);
+    margin-top: 20px;
+}
+.footer p {
+    color: rgba(255, 0, 0, .6);
+    
+}
+h5 {
+    font-size: 2em; 
+    font-weight: bold;
+}
+.box img {
+    width: 100%;
+    height: 600px;
+}
+.mt-0 {
+    width: 400px;
+    height: 20px; 
+}
+.end {
+    margin-left: 50px;
+    font-size: 2.5em;
+    color: var(--light);
+}  
+footer {
+    text-align: right;
+    color: var(--light)
+} 
+/* NAV */
+nav{
+    height: 0px;
+}
+nav .logo {
+    float: left;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 7em;
+}
+nav .menu{
+    float: right;
+    padding: 30px;
+}
+nav li {
+    float: left;
+}
+nav a {
+    color: var(--dark);
+    text-decoration: none;
+    display: block;
+    padding: 0 30px;
+    list-style: none;
+    text-align: right;
+}
+.img { 
+    width: 30%;
+    margin: 50px 180px;    
+    }
+}
